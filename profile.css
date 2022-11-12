@@ -112,12 +112,12 @@ font-size: 3rem;
     left: 27%;
     z-index: -1;
     border-radius: 14px;
-    background-color: rgb(223, 219, 219);
-    height: 80vh;
+    background-color: white;
+    height: 500vh;
     width: 70%;
 }
 
-.profile img{
+.profile .profileImg{
     height: 20vh;
     margin-top: 5vh;
     margin-left: 10vh;
@@ -130,9 +130,69 @@ font-size: 3rem;
 }
 
 .userName{
+    margin-top: 3%;
     height: 30vh;
     width: 70vh;
-    background-color: black;
+    background-color: white;
     margin-left: 5%;
-    color: white;
+    color: black;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user button {
+    height: 6vh;
+    margin-top: 4%;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    width: 20vh;
+    font-size: larger;
+    border-radius: 14px;
+}
+
+.fa-gear{
+    margin-left: 5px;
+}
+
+.user h1 {
+    font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+font-weight: 800;
+margin-left: 2%;
+}
+
+.tutorials{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bio{
+    margin-left: 5%;
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+
+.strike{
+    margin-left: 2%;
+}
+
+.story{
+    width: 90%;
+    height: 90vh;
+    margin-left: 2%;
+}
+
+hr {
+    color: black;
 }
