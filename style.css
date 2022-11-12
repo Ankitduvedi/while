@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital@1&family=Montserrat:wght@400;900&family=Pacifico&display=swap');
+
+body{
+    background-color:whitesmoke;
+}
+.sidebar{
+    top: 15%;
+    text-align: left;
+    position: fixed;
+    left: 4%;
+    background-color: rgb(222, 225, 225);
+    width: 300px;
+    height: 580px;
+    border-radius: 14px;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+
+.sidebar div{
+    padding-top: 0%;
+    margin-top: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.sidebar div i{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.sidebar div:hover{
+    cursor: pointer;
+
+    font-size: 1.8rem;
+}
+.navbar{
+    position: fixed;
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    top: 0%;
+    left: 0%;
+    width:100% ;
+    height: 8vh;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 4%;
+    font-family: 'Caveat', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-size: 3rem;
+}
+.notification{
+    position: fixed;
+    left: 60%;
+    font-size: 2rem;
+    top: 1%;
+}
+.notifications{
+    position: fixed;
+    left: 58.4%;
+    font-size: 1.2rem;
+    top: 5%;
+}
+.notification:hover{
+    cursor: pointer;
+}
+.notifications:hover{
+    cursor: pointer;
+}
+
+
+.search{
+    margin-top: 1%;
+    display: inline-block;
+    height: 4vh;
+    position: absolute;
+    right: 10%;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.search:hover{
+    border: 5px rgb(79, 167, 222);
+    box-shadow: 5px rgb(75, 134, 243);
+}
+
+.searchInput{
+    height: 20px;
+    width: 220px;
+    border-radius: 18px;
+    border: #CAE8FF;
+    margin-bottom: 5px;
+}
+
+.searchIcon{
+    font-size: 1.5rem;
+    margin: 7px 17px;
+}
+
+.content{
+    position: absolute;
+    top:15%;
+    left: 21%;
+    background-color: rgb(222, 225, 225);
+    width:50%;
+    border-radius: 14px;
+    z-index: -1;
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+
+.messages{
+    display: flex;
+    flex-wrap: wrap;
+    top:15%;
+    position: fixed;
+    left: 75%;
+    height: 650px;
+    background-color:rgb(222, 225, 225);
+    width: 300px;
+    border-radius: 14px;
+  box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+  
+}
+
+.post{
+    height: 590px;
+    width: 90%;
+    left: 20%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 14px;
+}
+.createPost{
+    height: 190px;
+    width: 90%;
+    left: 20%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 14px;
+}
+.createPost .createpostProfile{
+    display: flex;
+}
+.createpostProfile  img{
+    
+    border-radius: 40px;
+    width: 7vh;
+    height: 60px;
+    margin-right: 35px;
+}
+.createpostProfile .username {
+    margin-top: 3%;
+   color: rgb(10, 10, 10);
+   font-size: 30px;
+   font-weight: 700;
+}
+.post img{
+    margin: 10px 40px;
+    margin-top: 10px;
+    height: 330px;
+    width: 90%;
+    border-radius: 14px;
+}
+
+.postProfile{
+    display: flex;
+}
+
+.postProfile .username {
+    margin-top: 3%;
+   color: rgb(10, 10, 10);
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.postProfile img{
+    
+    border-radius: 40px;
+    width: 7vh;
+    height: 60px;
+    margin-right: 35px;
+}
+
+.likes{
+    margin-left: 6%;
+   color: black;
+   font-size: 20px;
+   font-weight: 600;
+   margin-bottom: 2%;
+}
+.likes i{
+    color:palevioletred ;
+}
+.createpostProfile img{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.Createreact {
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 87%;
+    height: 30px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: #16A085;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 14px;
+    box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+.Createreact i{
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.react{
+    margin-left: 5%;
+    width: 87%;
+    height: 30px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 14px;
+    box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+.react i {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.share{
+    margin-right: 30px;
+}
+.like:hover{
+    color: palevioletred;
+    cursor: pointer;
+    font-size: 32px;
+}
+.comment:hover{
+    cursor: pointer;
+    font-size: 32px;
+}
+.share:hover{
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.post:hover{
+  box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+
+.message{
+    
+font-family: 'EB Garamond', serif;
+/* font-family: 'Montserrat', sans-serif; */
+
+    padding-top: 5px;
+    padding-left: 25px;
+    margin: 8px 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    position: fixed;
+    border: 3px solid rgb(100, 177, 236);
+    width: 13%;
+    border-radius: 14px;
+    height: 50px;
+}
+
+.message:hover{
+    background-color: rgb(143, 224, 238);
+    box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
+}
+.messageSenction {
+    display: grid;
+    justify-content: space-between;
+    position: absolute;
+    top: 12%;
+}
+
+.people{
+    display: flex;
+    background-color: rgb(232, 235, 237);
+    width: 28vh;
+    height: 35px;
+    margin: 5px 10px;
+    border-radius: 14px;
+    padding-top: 3%;
+    padding-left: 5%;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.profilePeople img{
+    border-radius: 20px;
+    width: 3.5vh;
+    height: 30px;
+    margin-right: 15px;
+}
+
+    
