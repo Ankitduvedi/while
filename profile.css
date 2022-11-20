@@ -170,29 +170,60 @@ margin-left: 2%;
     display: flex;
     justify-content: space-around;
     font-family: 'EB Garamond', serif;
-    font-size: larger;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.tutorials div{
+    margin-top: 20px;
 }
 
 .bio{
     margin-left: 5%;
     font-family: 'EB Garamond', serif;
-    font-size: larger;
+    font-size: 25px;
     font-weight: 700;
     margin-top: 3%;
 }
 
+.bio div{
+    margin-top: 10px;
+}
+
 
 .strike{
+    margin-top: 10px;
     margin-left: 2%;
 }
 
 .story{
-    width: 90%;
-    height: 90vh;
-    margin-left: 2%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
 }
 
-hr {
-    color: black;
+.story1{
+    height: 12vh;
+    width: 12vh;
+    background-color: blue;
+    margin: 40px 35px;
+    border-radius: 80px;
+}
+
+
+.totorial{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.totorial1{
+    top: 0%;
+   position: relative;
+    background-color: black;
+    height: 40vh;
+    width: 30vh;
+    margin: 10px 30px;
+    border-radius: 14px;
 }

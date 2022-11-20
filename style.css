@@ -18,6 +18,12 @@ body{
   box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
 }
 
+.puzzle{
+    height: 4vh;
+    width: 8vh;
+    margin-left: 1vh;
+}
+
 .sidebar div{
     padding-top: 0%;
     margin-top: 20px;
@@ -180,7 +186,15 @@ font-size: 3rem;
    font-size: 30px;
    font-weight: 700;
 }
-
+#contentVideo{
+    border-radius: 10px;
+    border: double 4px black;
+    /* width: 7vh; */
+    /* height: 60px; */
+    margin-left: 80px;
+    width:80%;
+    max-height: 500px;
+}
 .postProfile img{
     
     border-radius: 40px;
@@ -213,9 +227,10 @@ font-size: 3rem;
     display: flex;
     justify-content: space-between;
     padding: 20px 10px;
-    background: #16A085;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F4D03F, #16A085);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F4D03F, #16A085); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     border-radius: 14px;
     box-shadow: 0 10px 15px rgba(145, 92, 182, .4)
